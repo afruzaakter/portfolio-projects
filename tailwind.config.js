@@ -57,7 +57,7 @@ module.exports = {
           "error": "#F87272",
         },
       },
-      "light",
+      "dark",
       
     ], 
   },
