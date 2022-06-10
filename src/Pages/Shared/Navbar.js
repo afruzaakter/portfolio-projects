@@ -6,6 +6,7 @@ const Navbar = () => {
   const menuItem = <>
     <li className='mr-2 font-bold text-info '><NavLink to="/home">HOME</NavLink></li>
     <li className='mr-2 font-bold text-info '><NavLink to="/about">ABOUT</NavLink></li>
+    <li className='mr-2 font-bold text-info '><NavLink to="/skills">SKILLS</NavLink></li>
     <li className='mr-2 font-bold text-info '><NavLink to="/services">SERVICES</NavLink></li>
     <li className='mr-2 font-bold text-info '><NavLink to="/contact">CONTACT</NavLink></li>
 
