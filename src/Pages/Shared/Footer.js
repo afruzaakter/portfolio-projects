@@ -13,14 +13,14 @@ const Footer = () => {
   </div> 
   <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-around">
      <div className='flex gap-5'>
-                                <div className='bg-info w-12 rounded-md'>
-                                    <a className='ml-1 text-4xl text-primary' target='_blank' href="https://www.linkedin.com/in/afruza-akter-sonia-73ab70200/"><i className="fab fa-linkedin-in"></i></a>
+                                <div className='bg-info w-12 rounded-full'>
+                                    <a className='ml-1 text-3xl p-2 text-primary' target='_blank' href="https://www.linkedin.com/in/afruza-akter-sonia-73ab70200/"><i className="fab fa-linkedin-in"></i></a>
                                 </div>
-                                <div className='bg-neutral w-12 rounded-md'>
+                                <div className='bg-neutral w-12 rounded-full'>
                                     <a className='ml-1 text-4xl text-white' target='_blank' href="https://github.com/afruzaakter"><i className="fab fa-github"></i></a>
                                 </div>
-                                <div className='bg-info w-12 rounded-md'>
-                                    <a className='ml-3 text-4xl text-white' target='_blank' href="https://www.facebook.com/afruza.sonia.3/"><i className="fab fa-facebook-f"></i></a>
+                                <div className='bg-info w-12 h-12 rounded-full'>
+                                    <a className='ml-3 text-3xl text-white p-1 pt-2 font-bold' target='_blank' href="https://www.facebook.com/afruza.sonia.3/"><i className="fab fa-facebook-f pt-2"></i></a>
                                 </div>
                             </div>
   </div>
