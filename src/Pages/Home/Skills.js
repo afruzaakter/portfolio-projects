@@ -5,7 +5,7 @@ import daisy from '../../images/daisy-flower.jpg'
 const Skills = () => {
     return (
         <div>
-            <div className="flex flex-col w-full border-opacity-50 mt-5 mb-5">
+            <div className="flex flex-col w-full border-opacity-50 mt-20 mb-5">
 
                 <div className="divider"><span className='text-5xl text-info font-bold'>SKILLS</span> </div>
 

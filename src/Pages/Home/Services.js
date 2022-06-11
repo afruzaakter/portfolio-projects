@@ -3,7 +3,7 @@ import React from 'react';
 const Services = () => {
     return (
         <div>
-            <div className="flex flex-col w-full border-opacity-50 mt-16 mb-16">
+            <div className="flex flex-col w-full border-opacity-50 mt-20 mb-16">
 
                 <div className="divider"><span className='text-5xl text-info font-bold'>MY SERVICES</span> </div>
 
