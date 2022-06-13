@@ -1,6 +1,6 @@
 [
     {
-      "id": 1,
+    
       "name": "Auto-Store",
       "html": "HTML",
       "css": "CSS",
@@ -19,7 +19,7 @@
       "description": " Build up by react.js and Firebase Authentication  System.Backend Implemented with Express.js.Data stored Mongodb atlas, Data secured by JWT"
     },
     {
-      "id": 2,
+     
       "name": "Dress Up ",
       "html": "HTML",
       "css": "CSS",
@@ -38,7 +38,7 @@
       "description": "Firebase Authentication System Email-Password and Google.Items can add, update and delete from both website and database. Data stored Mongodb atlas, Data secured by JWT ,"
     },
     {
-      "id": 3,
+      
       "name": "Mediz Medical Center",
       "html": "HTML",
       "css": "CSS",
@@ -57,7 +57,7 @@
       "description:": "User can purchase services by using firebase authentication system .Full responsive websit. User should logged-in to purchase any service      "
     },
     {
-      "id": 4,
+      
       "name": "Dress Up ",
       "html": "HTML",
       "css": "CSS",
@@ -75,7 +75,7 @@
       "description:": "Proin nunc nibh, adipiscing eu nisi id, ultrices suscipit augue. Sed rhoncus hendrerit lacus, et venenatis felis. "
     },
     {
-      "id": 5,
+      
       "name": "Dress Up ",
       "html": "HTML",
       "css": "CSS",
@@ -93,7 +93,7 @@
       "description:": "Proin nunc nibh, adipiscing eu nisi id, ultrices suscipit augue. Sed rhoncus hendrerit lacus, et venenatis felis. "
     },
     {
-      "id": 6,
+     
       "name": "Mediz Medical Center",
       "html": "HTML",
       "css": "CSS",

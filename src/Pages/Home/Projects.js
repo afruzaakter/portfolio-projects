@@ -24,14 +24,14 @@ const Projects = () => {
 
             </div>
 
-            <div>
+            {/* <div>
                 {
                     project?.map(projected => <ProjectDetails
                     key={projected.id}
                     projected = {projected}
                     ></ProjectDetails> )
                 }
-            </div>
+            </div> */}
         </div>
     );
 };
