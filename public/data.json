@@ -15,16 +15,19 @@
       "hook": "React Firebase Hook",
       "express": "ExpressJS",
       "img": "https://i.ibb.co/jVZkRnn/Untitled-design-19.png",
+      "img1": "https://i.ibb.co/61zt5YJ/Untitled-design-21.png",
+      "img2": "https://i.ibb.co/8cYDcQv/Untitled-design-22.png",
       "livelink":"https://assignment-12-ddb6e.web.app/",
-      "description": " Build up by react.js and Firebase Authentication  System.Backend Implemented with Express.js.Data stored Mongodb atlas, Data secured by JWT"
+      "client":"https://github.com/afruzaakter/auto-store-final-project-client-side",
+      "server":"https://github.com/afruzaakter/auto-store-final-project-server-side",
+      "description": "Build up by react.js and Firebase Authentication  System.  Backend Implemented with Express.js.Data stored Mongodb atlas, Data secured by JWT"
     },
     {
      
       "name": "Dress Up ",
       "html": "HTML",
       "css": "CSS",
-      "tailwind": "TailwindCSS",
-      "daisy": "DaisyUi",
+      "bootstrap": "React-Bootstrap",
       "react": "ReactJS",
       "javascript": "JavaScript(ES6)",
       "mongo": "MongoDB",
@@ -34,7 +37,10 @@
       "hook": "React Firebase Hook",
       "express": "ExpressJS",
       "livelink":"https://assignment-11-brazzers.web.app/Home",
+      "client":"https://github.com/afruzaakter/warehouse-management-client-side",
+      "server":"https://github.com/afruzaakter/warehouse-management-server-side",
       "img": "https://i.ibb.co/DYDZQPd/Untitled-design-19.png",
+      "img1": "https://i.ibb.co/1RPScHT/Untitled-design-24.png",
       "description": "Firebase Authentication System Email-Password and Google.Items can add, update and delete from both website and database. Data stored Mongodb atlas, Data secured by JWT ,"
     },
     {
@@ -42,37 +48,28 @@
       "name": "Mediz Medical Center",
       "html": "HTML",
       "css": "CSS",
-      "tailwind": "TailwindCSS",
-      "daisy": "DaisyUi",
       "react": "ReactJS",
       "javascript": "JavaScript(ES6)",
-      "mongo": "MongoDB",
-      "node": "NodeJS",
       "firebase": "Firebase",
       "bootstrap": "Bootstrap",
       "hook": "React Firebase Hook",
-      "express": "ExpressJS",
       "img": "https://i.ibb.co/k9jssZS/Untitled-design-20.png",
+      "img1": "https://i.ibb.co/0jNGqsk/Untitled-design-25.png",
       "livelink":"https://mediz-medical-center.web.app/Home",
+      "codelink":"https://mediz-medical-center.web.app/Home",
       "description:": "User can purchase services by using firebase authentication system .Full responsive websit. User should logged-in to purchase any service      "
     },
     {
-      
-      "name": "Dress Up ",
+      "name": "Rokon ",
       "html": "HTML",
       "css": "CSS",
-      "tailwind": "TailwindCSS",
-      "daisy": "DaisyUi",
       "react": "ReactJS",
       "javascript": "JavaScript(ES6)",
-      "mongo": "MongoDB",
-      "node": "NodeJS",
-      "firebase": "Firebase",
       "bootstrap": "Bootstrap",
       "hook": "React Firebase Hook",
-      "express": "ExpressJS",
-      "img": "https://i.ibb.co/J7SBzR8/project-2.jpg",
-      "description:": "Proin nunc nibh, adipiscing eu nisi id, ultrices suscipit augue. Sed rhoncus hendrerit lacus, et venenatis felis. "
+      "img": "https://i.ibb.co/XWp0nPf/Untitled-design-26.png",
+      "livelink":"https://vermillion-twilight-4e2690.netlify.app/Home",
+      "description:": "Responsive website. Use React Js and Bootstrap"
     },
     {
       
@@ -94,7 +91,7 @@
     },
     {
      
-      "name": "Mediz Medical Center",
+      "name": "gs-rings",
       "html": "HTML",
       "css": "CSS",
       "tailwind": "TailwindCSS",
@@ -108,6 +105,7 @@
       "hook": "React Firebase Hook",
       "express": "ExpressJS",
       "img": "https://i.ibb.co/PcnzLQH/project-1.jpg",
+      "livelink":"https://preeminent-bublanina-62554a.netlify.app/",
       "description:": "Dolore eu feugiat nulla facilisis at vero eros et accumsan et   iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis   dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option into nihil imperdiet doming id quod mazim placerat facer possim assum est notare."
     }
   ]
