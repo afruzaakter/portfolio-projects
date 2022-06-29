@@ -14,10 +14,17 @@ import Navbar from './Pages/Shared/Navbar';
 import NotFound from './Pages/Shared/NotFound';
 
 
+
 function App() {
+
+
   return (
     <div>
       <Navbar></Navbar>
+   
+  
+
+
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
@@ -33,6 +40,8 @@ function App() {
 
       </Routes>
       <Footer></Footer>
+
+    
   
     </div>
   );
