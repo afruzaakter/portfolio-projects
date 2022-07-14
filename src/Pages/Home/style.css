@@ -1,2 +1,8 @@
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
 @import "~react-image-gallery/styles/css/image-gallery.css";
+
+@media only screen and (max-width: 600px) {
+   logo-display{
+    display: none;
+   }
+  }

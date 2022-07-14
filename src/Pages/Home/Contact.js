@@ -3,15 +3,15 @@ import React from 'react';
 const Contact = () => {
     return (
         <div>
-            <div className="flex flex-col w-full border-opacity-50 mt-20 mb-16">
+            <div className="flex flex-col w-full border-opacity-50 mt-28 mb-16">
 
                 <div className="divider"><span className='text-5xl text-info font-bold'>CONTACT ME</span> </div>
 
             </div>
-            <div class="hero min-h-screen bg-base-200">
+            <div class="hero min-h-screen lg:bg-base-200 sm:bg-base-0 z-0">
                 <div class="hero-content flex-col lg:flex-row-reverse">
 
-                    <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl  bg-base-100">
+                    <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl  lg:bg-base-200 sm:bg-base-0  animate__animated  animate__zoomInDown">
                         <div class="card-body">
                             <div class="form-control">
                                 <label class="label">
@@ -39,7 +39,7 @@ const Contact = () => {
                     </div>
 
 
-                    <div class="card w-96 bg-white text-primary-content">
+                    <div class="card w-96 bg-white text-primary-content  animate__animated  animate__bounceInLeft">
                         <div class="card-body">
                             <h2 class="card-title text-2xl text-secondary ml-5 font-bold ">Contact With Me</h2>
                             <div className='flex gap-12'>
