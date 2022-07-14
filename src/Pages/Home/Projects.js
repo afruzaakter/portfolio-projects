@@ -13,7 +13,7 @@ const Projects = () => {
             <div className='mb-16'>
                 <div className="divider"><span className='text-5xl text-info font-bold '>MY PROJECTS</span> </div>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 animate__animated  animate__zoomInDown'>
+            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 animate__animated  animate__zoomInDown'>
 
             {
                 project?.map(projects => <ShowProject

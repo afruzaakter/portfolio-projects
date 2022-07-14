@@ -20,7 +20,7 @@ const Skills = () => {
             <div class="hero min-h-screen lg:bg-base-200 sm:bg-base-0">
            
 
-                <div class="hero-content flex-col lg:flex-row">
+                <div class="hero-content flex-col lg:flex-row md:flex-col">
 
                     <div className='w-96 mr-16 bg-white h-99 p-10 rounded-lg animate__animated animate__lightSpeedInLeft'>
                         <h1 className='text-xl text-secondary font-bold'>My creative skills & experiences:</h1>

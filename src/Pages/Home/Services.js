@@ -8,7 +8,7 @@ const Services = () => {
                 <div className="divider"><span className='text-5xl text-info font-bold'>MY SERVICES</span> </div>
 
             </div>
-            <div className='grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8'>
+            <div className='grid sm:grid-cols-1 md:grid-cols-1 xl:grid-cols-3 gap-8'>
             <div class="card w-96  bg-white bg-base-500 shadow-xl  animate__animated  animate__fadeInTopLeft">
                     <figure class="px-10 pt-10">
                    <span className='text-5xl text-secondary'> <i class="fas fa-fill-drip"></i></span>
