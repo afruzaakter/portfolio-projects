@@ -3,11 +3,17 @@ import React from 'react';
 const Section = () => {
     return (
         <div>
-             <div className="flex flex-col w-full border-opacity-50 mt-28 mb-5">
-              
-              <div className="divider"><span className='text-5xl text-info font-bold'>ABOUT</span> </div>
-              
-          </div>
+            <h1 className='text-5xl text-secondary text-center font-bold'>ABOUT</h1>
+            <div>
+                <div className='flex justify-center mt-2'>
+                    <div className=' border border-primary  w-48 '>
+                    </div>
+                </div>
+                <div className='flex justify-center mt-2'>
+                    <div className=' border border-primary  w-48 '>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

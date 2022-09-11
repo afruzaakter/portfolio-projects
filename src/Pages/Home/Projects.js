@@ -9,9 +9,19 @@ import ShowProject from './ShowProject';
 const Projects = () => {
     const [project, setProject] = useProject()
     return (
-        <div className='mt-28 mb-28 '>
-            <div className='mb-16'>
-                <div className="divider"><span className='text-5xl text-info font-bold '>MY PROJECTS</span> </div>
+        <div>
+            <div>
+                <div ><h1 className='text-5xl text-center text-secondary font-bold mt-20 '>MY PROJECTS</h1> </div>
+                <div>
+                <div className='flex justify-center mt-2'>
+                    <div className=' border border-primary  w-80 '>
+                    </div>
+                </div>
+                <div className='flex justify-center mt-2'>
+                    <div className=' border border-primary  w-80 '>
+                    </div>
+                </div>
+            </div>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 animate__animated  animate__zoomInDown'>
 

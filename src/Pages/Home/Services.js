@@ -2,11 +2,20 @@ import React from 'react';
 
 const Services = () => {
     return (
-        <div className='mb-16 '>
-            <div className="flex flex-col w-full border-opacity-50 mt-28 mb-16">
+        <div className=''>
+            <div className="flex flex-col w-full border-opacity-50 ">
 
-                <div className="divider"><span className='text-5xl text-info font-bold'>MY SERVICES</span> </div>
-
+                <h1 className='text-5xl text-secondary text-center font-bold'>MY SERVICES</h1> 
+                <div>
+                <div className='flex justify-center mt-2'>
+                    <div className=' border border-primary  w-80 '>
+                    </div>
+                </div>
+                <div className='flex justify-center mt-2'>
+                    <div className=' border border-primary  w-80 '>
+                    </div>
+                </div>
+            </div>
             </div>
             <div className='grid sm:grid-cols-1 md:grid-cols-1 xl:grid-cols-3 gap-8'>
             <div class="card w-96  bg-white bg-base-500 shadow-xl  animate__animated  animate__fadeInTopLeft">

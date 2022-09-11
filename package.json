@@ -8,14 +8,16 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "daisyui": "^2.15.2",
+    "draft-js": "^0.11.7",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-draft-wysiwyg": "^1.15.0",
     "react-image-gallery": "^1.2.8",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
-    "tsparticles-preset-sea-anemone": "^2.1.0",
+    "react-tsparticles": "^2.2.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

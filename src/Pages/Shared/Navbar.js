@@ -15,7 +15,7 @@ const Navbar = () => {
 
   </>
   return (
-    <div className='navbar  fixed top-0 z-50 bg-gray-50'>
+    <div className='navbar  fixed top-0 z-50 bg-gray-300'>
       <div className="navbar ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className='logo-display'>
           <Link to='/home' className="btn btn-ghost normal-case text-xl ml-10  ">
             <img className='w-10 mr-2 ' src={logo} alt="" />
-           <span className='text-secondary sm:text-none'> AFRUZA </span> <span className='text-info font-bold ml-2'> AKTER SONIA</span> </Link>
+           <div><span className='text-secondary '> AFRUZA </span> <span className='text-info font-bold ml-2 sm:display-none'> AKTER SONIA</span></div> </Link>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex ml-48">
