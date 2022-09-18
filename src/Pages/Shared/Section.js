@@ -10,7 +10,7 @@ const Section = () => {
                     </div>
                 </div>
                 <div className='flex justify-center mt-2'>
-                    <div className=' border border-secondary h-5 rounded bg-secondary  w-16 '>
+                    <div className=' border border-secondary h-4 rounded bg-secondary  w-16 '>
                     </div>
                 </div>
                 <div className='flex justify-center mt-2'>

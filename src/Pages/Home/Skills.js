@@ -4,29 +4,32 @@ import daisy from '../../images/daisy-flower.jpg'
 
 const Skills = () => {
     return (
-        <div>
+        <div className=''>
             <div className="flex flex-col w-full border-opacity-50">
 
-               <h1 className='text-5xl text-secondary text-center font-bold'>SKILLS</h1>
-               <div>
-                <div className='flex justify-center mt-2'>
-                    <div className=' border border-primary  w-48 '>
+                <h1 className='text-5xl lg:mt-0 mt-5 text-secondary text-center font-bold'>SKILLS</h1>
+                <div className='flex justify-center items-center'>
+                    <div className='flex justify-center mt-2'>
+                        <div className=' border border-secondary  w-16 '>
+                        </div>
+                    </div>
+                    <div className='flex justify-center mt-2'>
+                        <div className=' border border-primary h-4 rounded bg-primary  w-16 '>
+                        </div>
+                    </div>
+                    <div className='flex justify-center mt-2'>
+                        <div className=' border border-secondary  w-16 '>
+                        </div>
                     </div>
                 </div>
-                <div className='flex justify-center mt-2'>
-                    <div className=' border border-primary  w-48 '>
-                    </div>
-                </div>
             </div>
-            </div>
-            <div className="flex flex-col w-full border-opacity-50  mt-5 mb-5">
-            </div>
+
             <div class=" min-h-screen lg:bg-base-200 sm:bg-base-0">
-           
 
-                <div className="lg:flex justify-around items-center ">
 
-                    <div className='lg:w-1/2 bg-white h-99  rounded-lg animate__animated animate__lightSpeedInLeft'>
+                <div className="lg:flex justify-around  items-center ">
+
+                    <div className='lg:w-3/6  md:w-3/4  bg-white h-99 lg:mt-0 mt-16  rounded-lg animate__animated animate__lightSpeedInLeft'>
                         <h1 className='text-2xl text-secondary font-bold'>My creative skills & experiences:</h1>
                         <p className='text-primary font-bold '>
                             As a fullstack web developer, everyone needs to know about frontend and backend technology. Over 3.5 years I have been working hard on various frontend and backend technologies. I also created Website front-end design from Figma with HTML5, CSS3, JavaScript,ReactJs etc. Below are links to some of the responsive sites I have created. You know...

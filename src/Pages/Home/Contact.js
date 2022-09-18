@@ -5,16 +5,20 @@ const Contact = () => {
         
             <div className='mt-20 mb-5'>
                 <div ><h1 className='text-5xl text-center text-secondary font-bold '>CONTACT ME</h1> </div>
-                <div>
-                <div className='flex justify-center mt-2'>
-                    <div className=' border border-primary  w-80 '>
+                <div className='flex justify-center items-center'>
+                    <div className='flex justify-center mt-2'>
+                        <div className=' border border-secondary  w-16 '>
+                        </div>
+                    </div>
+                    <div className='flex justify-center mt-2'>
+                        <div className=' border border-primary h-4 rounded bg-primary  w-16 '>
+                        </div>
+                    </div>
+                    <div className='flex justify-center mt-2'>
+                        <div className=' border border-secondary  w-16 '>
+                        </div>
                     </div>
                 </div>
-                <div className='flex justify-center mt-2'>
-                    <div className=' border border-primary  w-80 '>
-                    </div>
-                </div>
-            </div>
             </div>
             <div class="hero min-h-screen lg:bg-base-200 sm:bg-base-0 z-0">
                 <div class="flex justify-around items-center gap-10 flex-col lg:flex-row-reverse">
