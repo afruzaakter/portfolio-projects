@@ -17,7 +17,7 @@ import NotFound from './Pages/Shared/NotFound';
 
 function App() {
   return (
-    <div>
+    <div className=' '>
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
@@ -34,7 +34,7 @@ function App() {
       </Routes>
       <Footer></Footer>
 
-    
+      {/* overflow-x-hidden */}
   
     </div>
   );

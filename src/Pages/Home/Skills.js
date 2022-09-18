@@ -24,9 +24,9 @@ const Skills = () => {
             <div class=" min-h-screen lg:bg-base-200 sm:bg-base-0">
            
 
-                <div className="lg:flex ">
+                <div className="lg:flex justify-around items-center ">
 
-                    <div className='lg:w-1/2 bg-white h-99 lg:p-10 rounded-lg animate__animated animate__lightSpeedInLeft'>
+                    <div className='lg:w-1/2 bg-white h-99  rounded-lg animate__animated animate__lightSpeedInLeft'>
                         <h1 className='text-2xl text-secondary font-bold'>My creative skills & experiences:</h1>
                         <p className='text-primary font-bold '>
                             As a fullstack web developer, everyone needs to know about frontend and backend technology. Over 3.5 years I have been working hard on various frontend and backend technologies. I also created Website front-end design from Figma with HTML5, CSS3, JavaScript,ReactJs etc. Below are links to some of the responsive sites I have created. You know...
