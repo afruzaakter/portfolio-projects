@@ -1,6 +1,36 @@
 import React from 'react';
+import  { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Contact = () => {
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+      .sendForm(
+          "service_pl0okht",
+          "template_fe6efio",
+          form.current,
+          "mklXy4D6a5DRmyyPh"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            console.log("message sent");
+            toast.success('Send Message')
+            
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    };
     return (
+
+        
         <div>
         
             <div className='mt-20 mb-5'>
@@ -20,38 +50,48 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+
+{/* ///////////////////contact header part //////////////////////// */}
+
             <div class="hero min-h-screen lg:bg-base-200 sm:bg-base-0 z-0">
                 <div class="flex justify-around items-center gap-10 flex-col lg:flex-row-reverse">
-
+               
+               {/* contact form   */}
                     <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl  lg:bg-gray-300 sm:bg-base-0  animate__animated  animate__zoomInDown">
                         <div class="card-body">
-                            <div class="form-control">
+                           <form ref={form} onSubmit={sendEmail} >
+                           <div class="form-control">
                                 <label class="label">
                                     <span class="label-text text-xl">Your Name</span>
                                 </label>
-                                <input type="text" class="input input-bordered text-gray-600 bg-white text-xl" />
+                                <input type="text" name='user_name' class="input input-bordered text-gray-600 bg-white text-xl" />
                             </div>
                             <div class="form-control">
                                 <label class="label">
                                     <span class="label-text text-xl">Your Email</span>
                                 </label>
-                                <input type="email" class="input text-gray-600 bg-white text-xl input-bordered" />
+                                <input type="email" naame='user_email' class="input text-gray-600 bg-white text-xl input-bordered" />
                             </div>
                             <div class="form-control">
                                 <label class="label">
                                     <span class="label-text text-xl">Your Message</span>
                                 </label>
-                                <textarea className='rounded-xl text-xl text-gray-600 p-3' name="" id="" cols="20" rows="5"></textarea>
+                                <textarea className='rounded-xl text-xl text-gray-600 p-3' name="message" id="" cols="20" rows="5"></textarea>
 
                             </div>
                           
                             <div class="form-control mt-6">
-                                <button class="btn btn-primary">Send</button>
+                                <button onSubmit={sendEmail} class="btn btn-primary">
+                               Send
+                                </button>
+                              
                             </div>
+                              {/* <input type='submit' value='Send'>Send</input> */}
+                           </form>
                         </div>
                     </div>
 
-
+              {/* contact details  */}
                     <div className=" rounded bg-gray-300  text-primary-content  animate__animated  animate__bounceInLeft">
                         <div class="card-body">
                             <h2 class="card-title text-2xl text-secondary ml-5 font-bold ">Contact With Me</h2>
@@ -101,6 +141,9 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+
+            <ToastContainer />
+
         </div>
     );
 };

@@ -15,6 +15,7 @@ const Home = () => {
             <Services></Services>
             <Projects></Projects>
             <Contact></Contact>
+           
         </div>
     );
 };
