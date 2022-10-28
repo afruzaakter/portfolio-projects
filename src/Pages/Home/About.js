@@ -2,7 +2,9 @@ import React from 'react';
 import myprofile from '../../images/Hero.png'
 import Section from '../Shared/Section';
 
+
 const About = () => {
+  
     return (
         <div>
             <Section></Section>
