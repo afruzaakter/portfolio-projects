@@ -25,10 +25,10 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className='grid m-10 grid-cols-1 md:grid-cols-1 lg:grid-cols-3 animate__animated  animate__zoomInDown'>
+            <div className='grid m-10 grid-cols-1  md:grid-cols-1 lg:grid-cols-3 animate__animated  animate__zoomInDown'>
 
             {
-                project?.map(projects => <ShowProject
+                project?. slice(0,6).map(projects => <ShowProject
                 key={projects.id}
                 projects = {projects}
                 ></ShowProject>)
@@ -36,14 +36,7 @@ const Projects = () => {
 
             </div>
 
-            {/* <div>
-                {
-                    project?.map(projected => <ProjectDetails
-                    key={projected.id}
-                    projected = {projected}
-                    ></ProjectDetails> )
-                }
-            </div> */}
+         
         </div>
     );
 };
